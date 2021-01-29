@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/zuza2/lab6/include/lab6_ZG.h
+map
+-
+vector
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+
+C:/Users/zuza2/lab6/src/main.cpp
+iostream
+-
+string
+-
+vector
+-
+../include/lab6_ZG.h
+C:/Users/zuza2/lab6/include/lab6_ZG.h
+
